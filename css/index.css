@@ -19,8 +19,9 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: (var(--lightgray));
 }
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -46,7 +47,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed var(--white);
 }
 header:after {
   content: "";
@@ -136,6 +137,7 @@ code {
   list-style: none;
   float: left;
   margin-left: 1em;
+
 }
 .nav-item {
   display: inline-block;
@@ -244,4 +246,19 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* .navbar {
+  color: #76ff03 !important;
+} */
+
+.blog-footer {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #fff;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.position-sticky {
+  color: forestgreen
 }

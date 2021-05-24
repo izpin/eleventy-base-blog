@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: Another p
+title: Project 2
 templateClass: tmpl-post
 eleventyNavigation:
-  key: yet another
-  order: 5
+  key: another project
+  order: 4
 ---
 
 
