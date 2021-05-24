@@ -262,3 +262,8 @@ a[href].direct-link:focus:visited,
 .position-sticky {
   color: forestgreen
 }
+
+.hidden {
+  display:none;
+    visibility:hidden;
+}

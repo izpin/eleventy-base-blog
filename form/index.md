@@ -7,7 +7,10 @@ eleventyNavigation:
   order: 7
 ---
 <br>
-<form name="submitted" method="POST" data-netlify="true">
+<form name="submitted" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+<p class="hidden">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
   <label for="Username">Username</label>
   <input type="text" name="username" id="Username"/>
   <br>
