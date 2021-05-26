@@ -19,7 +19,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   // Alias `layout: blog` to `blog: layouts/blog.njk`
-  // eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
+  eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -102,7 +102,7 @@ module.exports = function(eleventyConfig) {
       "html",
       "liquid",
       "yml"
-  ],
+    ],
 
     // -----------------------------------------------------------------
     // If your site deploys to a subdirectory, change `pathPrefix`.
