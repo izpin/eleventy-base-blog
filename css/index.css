@@ -18,8 +18,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: (var(--lightgray));
+  color: var(--white);
+  background-color: #b2ff59;
 }
 
 p:last-child {
@@ -254,9 +254,10 @@ a[href].direct-link:focus:visited,
 
 .blog-footer {
   padding: 1rem 0;
-  text-align: center;
+  color: #fff;
   background-color: #fff;
-  border-top: .05rem solid #e5e5e5;
+  border-top: .05rem solid #ccff90;;
+  
 }
 
 .position-sticky {

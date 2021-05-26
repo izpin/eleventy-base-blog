@@ -1,12 +1,21 @@
+<!-- latest 3 posts as cards-->
+
+<div class="card-group">
 <ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time> <p>can we make this into cards?</p>
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-  </li>
+    <div class="card border-light text-light bg-transparent mt-3" style="width: 20rem;">
+    <div class="card-body">
+            <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+              <h5 class="card-title"><a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h5>
+              <h6 class="card-subtitle mb-2 text-info"><time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></h6> 
+              <p class="card-text"><br> text here <br></p>
+              {% for tag in post.data.tags | filterTagList %}
+                {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+                <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+              {% endfor %} 
+            </li>
+    </div>
+    </div>
 {% endfor %}
 </ol>
+</div>
