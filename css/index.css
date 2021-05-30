@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--white);
-  background-color: #b2ff59;
+  background-color: #003366;
 }
 
 p:last-child {
@@ -254,14 +254,14 @@ a[href].direct-link:focus:visited,
 
 .blog-footer {
   padding: 1rem 0;
-  color: #fff;
+  color: #003366;
   background-color: #fff;
-  border-top: .05rem solid #ccff90;;
+  border-top: .05rem solid #003366;;
   
 }
 
 .position-sticky {
-  color: forestgreen
+  color: #003366
 }
 
 .hidden {
