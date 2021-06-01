@@ -88,6 +88,7 @@ pre {
 }
 code {
   word-break: break-all;
+  color: black !important; /* override inherit color tag in pre code*/
 }
 .highlight-line {
   display: block;
@@ -268,3 +269,4 @@ a[href].direct-link:focus:visited,
   display:none;
     visibility:hidden;
 }
+
