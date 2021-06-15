@@ -265,8 +265,44 @@ a[href].direct-link:focus:visited,
   color: #003366
 }
 
+/* Form page*/
+
 .hidden {
   display:none;
     visibility:hidden;
 }
 
+#form-body {
+  border: 1px solid #ced4da;
+
+}
+
+.form-group {
+  margin: 1rem;
+  text-align: left;
+}
+
+.input-group {
+  position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+label {
+  display: inline-block;
+}
+
+.submit-btn{
+  text-align: center!important;
+  padding-bottom: 1rem;
+}
+
+.inputstyle {
+    border-color: #ced4da;
+    border-style: solid;
+    padding: 0.25rem;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
