@@ -272,10 +272,10 @@ a[href].direct-link:focus:visited,
     visibility:hidden;
 }
 
-#form-body {
+/* #form-body {
   border: 1px solid #ced4da;
 
-}
+} */
 
 .form-group {
   margin: 1rem;
@@ -289,9 +289,9 @@ a[href].direct-link:focus:visited,
     width: 100%;
 }
 
-label {
+/* label {
   display: inline-block;
-}
+} */
 
 .submit-btn{
   text-align: center!important;

@@ -15,32 +15,29 @@ eleventyNavigation:
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
   </p>
 
-  <div class=form-group>
-    <label for="firstname">First name</label>
-    <div class=input-group>
-      <input type="text" name="firstname" id="firstname" class="inputstyle"  required/>
+  <div class="row form-group">
+  <div class="col input-group">
+    <input type="text" name="firstname" id="firstname" class="form-control inputstyle" placeholder="First name" aria-label="First name" aria-required="true" required>
+  </div>
+  <div class="col input-group">
+    <input type="text" name="surname" id="surname" class="form-control inputstyle" placeholder="Last name" aria-label="Last name" aria-required="true" required>
+  </div>
+</div>
+
+<div class="row form-group">
+  <div class="col input-group">
+    <input type="email" name="email" id="Email" class="form-control inputstyle" placeholder="Email" aria-label="Email" aria-required="true" required>
+  </div>
+</div>
+
+<div class="row form-group">
+  <div>
+        <textarea id="message" name="message"  rows="6" maxlength="3000" class="form-control inputstyle" placeholder="Message" aria-label="Message" aria-required="true" required></textarea>
     </div>
-  </div>
-
-  <div class=form-group>
-    <label for="surname">Surname</label>
-    <input type="text" name="surname" id="surname" class="inputstyle" required/>
-  </div>
-
-  <div class=form-group>
-    <label for="Email">Email</label>
-    <input type="email" name="email" id="Email" class="inputstyle" required/>
-  </div>
-
-  <div class=form-group>
-    <label for="Message">Your message</label>
-    <div>
-        <textarea id="Message" name="Message"  rows="6" maxlength="3000" class="inputstyle" required></textarea>
-    </div> 
-  </div>
+</div>
 
   <div class="submit-btn">
-  <input type="submit" value="Submit" >
+  <input type="submit" class="btn btn-light" value="Submit" >
   </div>
   
 </form>
