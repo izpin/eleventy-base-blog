@@ -10,12 +10,12 @@ rating: 1
 
 This can be accessed via the page list: https://admiring-benz-4db1b1.netlify.app/page-list/
 
-**According to [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CMS) a Content Management System (CMS)**
+ **A Content Management System (CMS) is defined by [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CMS) as**
 
-> *"is software that allows users to publish, organise, change, or remove various kinds of content, not only text but also embedded images, video, audio, and interactive code."*
+> *"software that allows users to publish, organise, change, or remove various kinds of content, not only text but also embedded images, video, audio, and interactive code."*
 
 It allows users to publish to a site without them having to know any programming languages. It is much less resource intensive than having a single coder work to continually push content - which could include minor changes such as updating spelling mistakes.
 
-**According to [Adobe](https://business.adobe.com/glossary/content-management-system.html#q4)**
+**Furthermore, [Adobe](https://business.adobe.com/glossary/content-management-system.html#q4) describes how a CMS**
 
-> *"\[A CMS] streamlines the content-creation process, helps manage the different people and different teams involved... It does the work of converting the structure and content of your experience into HTML code that can be read by the web and then fully displayed in its final format or into other formats that can be consumed by other channels"*
+> *"streamlines the content-creation process, helps manage the different people and different teams involved... It does the work of converting the structure and content of your experience into HTML code that can be read by the web and then fully displayed in its final format or into other formats that can be consumed by other channels"*
