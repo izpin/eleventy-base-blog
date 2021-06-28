@@ -1,26 +1,33 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
+title: The one about programing concepts.
+description: This post is about learning the fundamentals of JavaScript.
 date: 2018-05-01
 tags:
-  - another tag
+  - basics tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## The basics
+We begin with a simple programme to calculate a bill total with tip.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
+<!-- is it poss to change the background colour? -->
 ```
+const preTipTotal = 30.24;
+const tip = preTipTotal * 0.15;
+
+const total = preTipTotal + tip;
+ 
+console.log("Your total bill, with a tip of £" + tip.toFixed(2) + ", is £" + total.toFixed(2) + ".");
+```
+
+<br/>
+
+#### This short program includes:
+1. Declaring const variables
+1. Functional programming
+1. Calling the write() and toFixed() methods
+1. Concatenating a string
+
+#### In the future I could expand this program to:
++ Accept input from the user
++ Calculate the change needed from a cash payment
++ Split the bill

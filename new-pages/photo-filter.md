@@ -1,9 +1,12 @@
 ---
 layout: layouts/post.njk
-title: Project 1
+title: Photo filter
 templateClass: tmpl-post
 eleventyNavigation:
-  key: tbc
-  order: 3
+  key: Photo filter Project
+  order: 4
 ---
+
+
+
 

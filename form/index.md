@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Contact Form
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Form
+  key: Contact
   order: 7
 ---
 <br>

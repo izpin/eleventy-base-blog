@@ -1,28 +1,45 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
+title: The one about switch statements.
+description: This is a post about switch statements.
 date: 2018-08-24
 tags:
-  - second tag
+  - switch
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-``` js/2/4
-// this is a command
-function myCommand() {
-	let counter = 0;
-
-	counter++;
-
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
 
 ## Section Header
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+```
+function drinkOrder(size, drink) {
+  switch(drink) {
+    case 'orange':
+        softDrinkLabel = 'Orangeade';
+        break;
+      case 'lemon':
+        softDrinkLabel = 'Lemonade';
+        break;
+      case 'cola':
+        softDrinkLabel = 'Cola';
+        break;
+  }
+  return `You have ordered a ${size} ${softDrinkLabel}.`;
+}
+
+const myOrder = drinkOrder('medium', 'lemon')
+console.log(myOrder); 
+```
+
+#### This short program includes:
+1. Variables with global and local scope.
+1. Creating functions, passing arguments, applying logical code to these arguments in order to return a statement.
+1. Template literals to print
+1.  Switch statements
+
+#### In the future I could expand this program to:
++ Accept input from the user
++ 
++ 
+
+<a href="{{ '/posts/secondpost/' | url }}">Second post</a>
+<a href="{{ '/posts/fourthpost/' | url }}">Fourth post</a>

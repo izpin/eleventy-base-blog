@@ -1,12 +1,9 @@
 ---
 layout: layouts/post.njk
-title: Project 2
+title: To-Do List
 templateClass: tmpl-post
 eleventyNavigation:
-  key: another project
-  order: 4
+  key: The To-Do List Project
+  order: 3
 ---
-
-
-
 
