@@ -6,6 +6,10 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --blackish: #101207;
+  --graqua: #D6DFDE;
+  --grurple: #B4B5C9;
+  --grink: #FCD0DE;
 }
 
 /* Global stylesheet */
@@ -19,7 +23,7 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--white);
-  background-color: #003366;
+  background-color: var(--blackish);;
 }
 
 p:last-child {
@@ -28,7 +32,7 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 100%; /* WAS 37.5em 600px /16 WHY IS THIS THE CHOICE?? */
 }
 p,
 .tmpl-post li {
@@ -38,7 +42,7 @@ a[href] {
   color: var(--blue);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--grurple);
 }
 main {
   padding: 1rem;
@@ -47,7 +51,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--white);
+  border-bottom: 1px var(--white);
 }
 header:after {
   content: "";
@@ -174,7 +178,7 @@ code {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: var(--graqua);
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -255,8 +259,8 @@ a[href].direct-link:focus:visited,
 
 .blog-footer {
   padding: 1rem 0;
-  color: #003366;
-  background-color: #fff;
+  color: var(--graqua);
+  background-color: var(--blackish);
   border-top: .05rem solid #003366;;
   
 }
