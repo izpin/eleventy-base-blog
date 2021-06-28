@@ -39,10 +39,14 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--graqua);
 }
 a[href]:visited {
   color: var(--grurple);
+}
+
+a:hover {
+  color: pink;
 }
 main {
   padding: 1rem;
@@ -92,7 +96,7 @@ pre {
 }
 code {
   word-break: break-all;
-  color: black !important; /* override inherit color tag in pre code*/
+  color: var(--grurple) !important; /* override inherit color tag in pre code*/
 }
 .highlight-line {
   display: block;
@@ -244,7 +248,7 @@ a[href].post-tag:focus {
 }
 a[href].direct-link,
 a[href].direct-link:visited {
-  color: transparent;
+  color: white;
 }
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
