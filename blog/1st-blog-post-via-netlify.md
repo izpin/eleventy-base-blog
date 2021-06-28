@@ -8,11 +8,9 @@ rating: 1
 ---
 ### This blog post had been published using Netlify's Content Management System
 
-CMS)
-
 This can be accessed via the page list: https://admiring-benz-4db1b1.netlify.app/page-list/
 
-**According to [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CMS) a CMS**
+**According to [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CMS) a Content Management System (CMS)**
 
 > *"is software that allows users to publish, organise, change, or remove various kinds of content, not only text but also embedded images, video, audio, and interactive code."*
 
