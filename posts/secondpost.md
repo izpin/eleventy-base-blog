@@ -8,10 +8,10 @@ layout: layouts/post.njk
 ---
 
 
-## Shall I wear a coat?
+## Should I wear a coat?
 There's nothing worse than thinking you should've brought your big coat out with you. Let's create a program to solve this!
 
-Brit warning: beware the farenheit
+Brit-pick warning: beware the farenheit!
 
 ```
 const temp = 30;
@@ -30,13 +30,16 @@ else {
 }
 ```
 
-#### This short program includes:
-1. Declaring const variables
-1. Functional programming.
-1. Control flow: if, else if and else statements to decide which lines of code to execute given a condition.
-1. The logical operator '&&', where two conditions must be met in order for a conditition to execute.
+##### This program:
+1. Declares a const variable - an int that represents a temperature.
+1. Applies arbitrary logic to the variable to decide if we need a coat.
+    + Conditional statements are never set in stone and we continue to update them if they fail to meet our logical needs. What I consider shorts and a tshirt weather might be someone elses big coat weather. 
+      + Uni Izzy wouldn't take a coat out no matter the temperature - nights out in Newcastle in the sleet and snow wearing jeans and a nice top? Completed it. Frost bite? Don't know her. 
+1. Uses control flow: <em>if, else if</em> and <em>else</em> statements decide which lines of code to execute given a condition.
+1. The <em>logical operator '&&'</em>, is used where two <em>boolean expressions</em> must be true in order for a statement to execute -ie temp is greater or equal to one number, but lower than or equal to another.
+1. When a statement is evaluated to 'true' the code inside the following curly braces is executed. In this program it is always a log() to the console that communicates an outcome to the user.
 
-#### In the future I could expand this program to:
+##### In the future I could expand this program to:
 + Accept input from the user
 + Convert from celcius to farenheit + vice versa
 + 
