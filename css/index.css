@@ -10,6 +10,7 @@
   --graqua: #D6DFDE;
   --grurple: #B4B5C9;
   --grink: #FCD0DE;
+  --darkgrurple: #8d8fc2;
 }
 
 /* Global stylesheet */
@@ -46,7 +47,7 @@ a[href]:visited {
 }
 
 a:hover {
-  color: pink;
+  color: pink !important;
 }
 main {
   padding: 1rem;
@@ -265,12 +266,13 @@ a[href].direct-link:focus:visited,
   padding: 1rem 0;
   color: var(--graqua);
   background-color: var(--blackish);
-  border-top: .05rem solid #003366;;
+  border-top: .05rem solid var(--graqua);
   
 }
 
 .position-sticky {
-  color: #003366
+  color: var(--darkgrurple);
+  padding-top: 20px;
 }
 
 /* Form page*/
@@ -313,4 +315,28 @@ a[href].direct-link:focus:visited,
     margin: 0;
     max-width: 100%;
     width: 100%;
+}
+
+.rounded-circle {
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.flag {
+  height: 30px;
+  margin: 10px 50px;
+}
+
+.codepen {
+  align-self: center;
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+h2 {
+  padding-top: 25px;
 }

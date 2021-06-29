@@ -69,7 +69,7 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   }).use(markdownItAnchor, {
-    permalink: true,
+    permalink: false, //was true in original 11ty config, but added a # to every h el
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
