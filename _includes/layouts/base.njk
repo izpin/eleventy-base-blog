@@ -27,7 +27,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
               {%- for entry in collections.all | eleventyNavigation %}
               <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
             {%- endfor %}
@@ -50,7 +50,7 @@
   </div>
 
 <div class="container">
-    <footer class="blog-footer text-center"><p>Blog by <a href="https://izpin.github.io/">Izzy</a></a>.</p>
+    <footer class="blog-footer text-center"><p>Blog by <a href="https://izpin.github.io/">Izzy</a> using <a href="https://www.11ty.dev/">11ty</a> and <a href="https://www.netlify.com/">Netlify</a>.</p>
       <p><a href="#">Back to top</a></p> 
     </footer>
 </div>
